@@ -1,0 +1,122 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: white;
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: transparent;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.sign-in-btn {
+    background-color: #e50914;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Hero Banner Styles */
+.hero-banner {
+    background-image: url('images/hero-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    background-color: #e50914;
+    padding: 12px 40px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Movie Categories */
+.movie-category {
+    padding: 20px;
+}
+
+.movie-category h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.movie-row {
+    display: flex;
+    overflow-x: scroll;
+    gap: 70px;
+}
+
+.movie-item {
+    width: 200px;
+    height: 300px;
+    background-color: #333;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+}
+
+.movie-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.movie-row{
+    margin-bottom: 70px;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #111;
+    text-align: center;
+    padding: 40px;
+}
+
+.footer p {
+    font-size: 14px;
+}
